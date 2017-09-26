@@ -15,18 +15,18 @@
       </div>
       <div class="row">
 
-    <form class="movie-ticket">
+    <form id="movie-ticket">
       <div class="col-md-6">
       <h4>Movie:</h4>
-      <select class="form-control" id="movie">
-        <option value="pokemon">Pokemon</option>
-        <option value="james-bond">James Bond</option>
-        <option value="dunkirk">Dunkirk</option>
-        <option value="wonder-woman">Wonder Woman</option>
+      <select id="movie">
+        <option value="Pokemon">Pokemon</option>
+        <option value="James Bond">James Bond</option>
+        <option value="Dunkirk">Dunkirk</option>
+        <option value="Wonder Woman">Wonder Woman</option>
       </select>
 
       <h4>Movie Time:</h4>
-      <select class="form-control" id="time">
+      <select id="time">
         <option value="12-pm">Today at 12 pm</option>
         <option value="3-pm">Today at 3 pm</option>
         <option value="6-pm">Today at 6 pm</option>
@@ -34,15 +34,17 @@
       </select>
 
       <h4>Your age:</h4>
-      <select class="form-control" id="age">
+      <select id="age">
         <option value="Adult">Adult</option>
         <option value="Child">Child</option>
         <option value="Senior">Senior</option>
       </select>
-      <button type="submit" name="button">Buy Ticket</button>
+       <button type="submit" name="button" class="btn btn-primary">Ticket me!</button>
     </div>
     </form>
     <div class="col-md-6">
+      <div id="result"></div>
+      <div id="cost"></div>
     </div>
     </ul>
   </div>
